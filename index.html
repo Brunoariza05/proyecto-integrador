@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Poppins:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/img/logo-mate.png" type="image/x-icon">
+    <title>Mates argentinos</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+                <div class="nav-logo"><img src="/img/logo-mate.png" id="logo-mate"></div>
+            <div class="nav-opciones">
+                <ul class="nav-opciones-ul">
+                    <li><a href="#hero" class="a">INICIO</a></li>
+                    <li><a href="#us" class="a">NOSOTROS</a></li>
+                    <li><A href="#productos" class="a">PRODUCTOS</A></li>
+                    <li><a href="#contacto" class="a">CONTACTO</a></li>
+                    <li><a href="/login.html" class="a" id="login">LOGIN</a></li>
+                    <li><a href="/register.html" class="a" id="login">REGISTER</a></li>
+                </ul>
+                <label for="menu"><i class="fa-solid fa-bars"></i></label>
+                <label for="toggle"><i class="fa-solid fa-cart-shopping"></i></label><input type="checkbox" name="checkbox" id="toggle" class="checkbox">
+                <div class="carrito">
+                    <div class="mate"><img src="/img/producto-mate-blanco.jpg" height="70px" width="47.5px" id="mate-carrito"><input type="number" id="cantidad" placeholder="cant."></div>
+                    <div class="mate"><img src="/img/producto-mate-negro.jpg" height="70px" width="47.5px" id="mate-carrito"><input type="number" id="cantidad" placeholder="cant."></div>
+                    <div class="mate"><img src="/img/producto-mate-marron.jpg" height="70px" width="47.5px" id="mate-carrito"><input type="number" id="cantidad" placeholder="cant."></div>
+                    <div class="mate"><img src="/img/producto-mate-rosa.jpg" height="70px" width="47.5px" id="mate-carrito"><input type="number" id="cantidad" placeholder="cant."></div>
+                    <div class="enviar"><div class="continuar">CONTINUAR</div></div>
+                </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="hero" id="hero">
+        <div class="hero-text"><h1>MATES ARGENTINOS</h1><h2>tenemos el mate perfecto para vos</h2></div>
+        <input type="checkbox" name="menu" id="menu">
+        <div class="menu-hamburgesa">
+            <a class="a" href="#hero">INICIO</a>
+            <a class="a" href="#us">NOSOTROS</a>
+            <a class="a" href="#productos">PRODUCTOS</a>
+            <a class="a" href="#contacto">CONTACTOS</a>
+        </div>
+    </section>
+    <hr>
+    <section class="nosotros" id="us">
+        <div class="nosotros-titulo"><h1>¿PORQUE ELEGIRNOS?</h1></div>
+        <div class="nosotros-beneficios">
+          <div class="nosotros-beneficios-caja"><h2>calidad</h2><h3>Tenemos la mejor calidad de mates del mercado argentino, con +50 años de experiencia.</h3><i class="fa-solid fa-check"></i></div>
+          <div class="nosotros-beneficios-caja"><h2>envios</h2><h3>Realizamos envios a todo el pais, con una demora de no mas de 5 dias habiles.</h3><i class="fa-solid fa-plane"></i></div>
+          <div class="nosotros-beneficios-caja"><h2>metodos de pago</h2><h3>Aceptamos todas las tarjetas, de debito y credito en cuotas sin interes.</h3><i class="fa-solid fa-dollar-sign"></i></div>
+        </div>
+    </section>
+    <hr>
+    <section class="productos" id="productos">
+        <div class="productos-titulos"><h1>PRODUCTOS DESTACADOS</h1></div>
+        <div class="productos-destacados">
+            <div class="productos-destacados-img">
+                <img src="/img/producto-mate-blanco.webp">
+                <div class="productos-destacados-img-content">
+                    <div class="productos-destacados-img-info"><h3>MATE BLANCO</h3><h4>$7000</h4></div>
+                    <div class="productos-destacados-img-boton"><h3>COMPRAR</h3></div>
+                </div>
+            </div>
+            <div class="productos-destacados-img">
+                <img src="/img/producto-mate-negro.webp">
+                <div class="productos-destacados-img-content">
+                    <div class="productos-destacados-img-info"><h3>MATE NEGRO</h3><h4>$7000</h4></div>
+                    <div class="productos-destacados-img-boton"><h3>COMPRAR</h3></div>
+                </div>
+            </div>
+            <div class="productos-destacados-img">
+                <img src="/img/producto-mate-rosa.webp">
+                <div class="productos-destacados-img-content">
+                    <div class="productos-destacados-img-info"><h3>MATE ROSA</h3><h4>$7000</h4></div>
+                    <div class="productos-destacados-img-boton"><h3>COMPRAR</h3></div>
+                </div>
+            </div>
+            <div class="productos-destacados-img">
+                <img src="/img/producto-mate-marron.webp">
+                <div class="productos-destacados-img-content">
+                    <div class="productos-destacados-img-info"><h3>MATE MARRON</h3><h4>$7000</h4></div>
+                    <div class="productos-destacados-img-boton"><h3>COMPRAR</h3></div>
+                </div>
+           </div>
+        </div>
+    </section>
+    <hr>
+    <section class="CONTACTO" id="contacto">
+        <H6>CONTACTANOS!</H6>
+        <div class="contacto-content">
+            <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54480.33024574397!2d-64.2556881513672!3d-31.413557399999988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a3eb10570a3f%3A0x3a9e7918ba6deb35!2sCasa%20Nostra%20-%20la%20Casa%20del%20Mate!5e0!3m2!1ses!2sar!4v1685899758817!5m2!1ses!2sar" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe>
+            </div>
+            <div class="contactanos">
+             <div class="contactanos-form">
+                <h7>QUERES UN MATE PERSONALIZADO? DEJA TUS DATOS Y NOS COMUNICAMOS CON VOS!</h7>
+                <input type="text" name="nombre" id="nombre" placeholder="ingrese su nombre y apellido"> 
+                <input type="text" name="mail" id="mail" placeholder="ingrese su e-mail">
+                <input type="text" name="numero" id="numero" placeholder="ingrese su telefono"> 
+                <input type="submit" id="submit" class="continuar">
+            </div>
+        </div>
+    </div>
+    </section>
+    <hr>
+    <footer class="footer">
+        <div class="footer-icon">
+        <a href="https://api.whatsapp.com/send/?phone=543512743583&text&type=phone_number&app_absent=0"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://api.whatsapp.com/send/?phone=543512743583&text&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://api.whatsapp.com/send/?phone=543512743583&text&type=phone_number&app_absent=0"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://api.whatsapp.com/send/?phone=543512743583&text&type=phone_number&app_absent=0"><i class="fa-solid fa-phone"></i></a>
+        <a href="https://api.whatsapp.com/send/?phone=543512743583&text&type=phone_number&app_absent=0"><i class="fa-solid fa-square-envelope"></i></a>
+        </div>
+        <div class="footer-politica"><a href="https://policies.google.com/privacy?hl=es">Politica de privacidad</a></div>
+    </footer>
+</body>
+</html>
